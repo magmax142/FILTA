@@ -30,7 +30,7 @@ function modelLoaded(){
 }
 
 function GetResulto(result){
-    if(results.length > 0){
+    if(result.length > 0){
         console.log(result);
         nosex=result[0].pose.nose.x;
         nosey=result[0].pose.nose.y;
