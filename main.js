@@ -1,6 +1,7 @@
 nosex="";
 nosey="";
 function preload(){
+    clowno=loadImage("CLOWNY BOIIII.png")
 }
 
 
@@ -16,9 +17,10 @@ function setup() {
 
 function draw(){
     image(video,0,0,300,300)
-    fill("black");
-    stroke("blue");
-    circle(nosex,nosey,50)
+    // fill("black");
+    // stroke("blue");
+    // circle(nosex,nosey,50)
+    image(clowno,nosex-10,nosey-10,50,50)
 }
 
 function take_snapshot(){
